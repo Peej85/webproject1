@@ -1,0 +1,282 @@
+/* this is a css comment
+
+/* this also works
+on multi-line
+comments*/
+
+
+
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+    font-size: 25px;
+    padding: 0px;
+    margin:0px 
+}
+body {
+    background-image: url(./charcoal2half.jpg);
+}
+a {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+p { display:flex;
+    background-color: rgb(214, 214, 214, 0.8);
+    color: black;
+    padding: 14px;
+    margin: 0px;
+    font-family: cursive;
+
+
+
+}
+
+
+h1{ display:flex;
+    justify-content: center;
+    background-color: rgb(214, 214, 214, 0.8);
+    color:rgb(51, 50, 50);
+    font-size: 50px;
+    text-align: center;
+}
+h2{ display:flex;
+    background-color: rgb(214, 214, 214, 0.8);
+    color:rgb(51, 50, 50);
+    text-align: center;
+    padding-left:25px;
+    padding-right:25px
+}
+h3{ 
+    display:flex;
+    background-color: rgb(214, 214, 214, 0.8);
+    color:black;
+    font-size: 50px;
+    text-align: left;
+    padding-left:25px;
+    padding-right:25px
+}
+
+h4{ 
+    display:flex;
+    justify-content: right;
+    background-color: rgb(214, 214, 214, 0.8);
+    color:black;
+    font-size: 50px;
+    text-align: right;
+    padding-left:25px;
+    padding-right:25px
+}
+
+.large {
+    display:flex;
+    flex-flow: row;
+    width: 500px;
+    height: auto;
+    float:left;
+    justify-content:flex-start;
+    background-color: rgb(214, 214, 214, 0.8);
+    font-size: 35px;
+    font-weight: bold;
+    padding-right: 550;
+    margin:0px;
+
+}
+.large>img{
+    justify-content: start;
+    float:left;
+    width:500px;
+    height:auto
+}
+
+.large2 {
+    display:flex;
+    flex-flow: row;
+    width: 500px;
+    height: auto;
+    float:right;
+    background-color: rgba(51, 49, 49, 0.8);
+    justify-content: flex-end;
+    font-size: 35px;
+    font-weight: bold;
+
+    margin:0px
+        
+}
+.large2>img{
+    display:flex;
+    background-color:rgba(51, 49, 49, 0.8) ;
+    justify-content: end;
+    float:right;
+    width:500px;
+    height:auto;
+    
+
+}
+
+.large2>img>p{
+    
+    display:flex;
+    background-color:rgba(51, 49, 49, 0.8) ;
+    padding-left: 500px;
+}
+
+.left{
+    text-align: left;
+    background-color:rgba(214, 214, 214, 0.8);
+    padding-right:100px;
+}
+.right{
+    text-align:right;
+    background-color:rgba(51, 49, 49, 0.8);
+    padding-left:100px;
+}
+.centre{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px;
+}
+
+
+#navbartop{ 
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    background-color: rgb(214, 214, 214, 0.8);
+    border-style: groove;
+    border-color: black;
+
+}
+
+#navbarbottom{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(214, 214, 214, 0.8);
+    color: black;
+    border-style: groove;
+    border-color: black;
+    font-family:cursive;
+
+
+}
+#navbatbottom a div {
+    color:tomato;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+#navbatbottom a:hover {
+    color: slategrey;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+.navbuttonbot1{
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding:10px
+
+
+
+    
+}
+.navbuttonbot2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.navbuttonbot3{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+/* index page  */
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width:250px;
+    justify-content: center;
+      align-items: center;
+}
+.gallerycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* max-width: 250px; */
+    
+  }
+
+  .gallerybox{
+      flex:25%;
+      max-width:100%;
+      padding: 0 4px;
+      ;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+  .gallerybox img{
+      margin-top:8px;
+      padding: 0 4px;
+      justify-content: center;
+      align-items: center;
+  }
+  @media (max-width: 1000px) {
+    .gallerbox {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 750px) {
+    .gallerybox {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width:250px
+  }
